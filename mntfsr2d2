@@ -1,0 +1,5 @@
+#!/bin/bash
+
+sudo mount -t nfs4 192.168.0.35:/home/fvdb/nfsshare /mnt
+
+

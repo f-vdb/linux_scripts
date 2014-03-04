@@ -1,0 +1,8 @@
+#!/bin/bash
+mount -t cifs -o username=yoicks //192.168.0.35/\!trade /mnt
+
+<<<<<<< HEAD
+#sudo mount -t cifs -o username=fvdb,uid=1000 //192.168.0.1/zbigdata /home/fvdb/zbigdata_mnt
+=======
+>>>>>>> a371ea6f7146083bd04d0b631dbe132d95b75c58
+

@@ -1,0 +1,13 @@
+#!/bin/bash
+
+#rdp auch für windows 7
+#xfreerdp -u username ip
+
+#fullscreen benenden mit strg+alt+enter
+#kann immer ein und ausgeschalten werden
+
+#xfreerdp -u username -f ip
+
+#rdesktop geht nicht!
+
+xfreerdp -u yoicks -f franil.de
