@@ -1,10 +1,13 @@
 #!/bin/bash
-ps aux | grep " node " | grep -v grep
-nodepids=$(ps aux | grep " node " | grep -v grep | cut -c10-15)
+# tested on debian jessie...not unstable the bleeding edge
+
+nodepids=$(ps aux | grep nodejs | grep -v grep | cut -c10-15)
 echo $nodepids
 for nodepid in ${nodepids[@]}
 do
-echo "Stopping PID :"$nodepid
+echo "Killing the hard way nodejs server with PID :"$nodepid
 kill -9 $nodepid
 done
 echo "Done"
+
+
