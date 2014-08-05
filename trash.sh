@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/zsh
 # add these lines to the .bashrc
 #PATH=$PATH:/usr/libexec/p7zip:$HOME/repos/tux_scripts
 #export PATH
