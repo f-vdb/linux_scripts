@@ -18,7 +18,8 @@ then
 fi
 
 echo "Downloading media files to $targetdir"
-wget -O - "http://embed.scribblelive.com/Embed/v5.aspx?Id=225424&ThemeId=4497" 2>/dev/null \
+wget -O -    \
+"http://embed.scribblelive.com/Embed/v5.aspx?Id=225424&ThemeId=4497" 2>/dev/null \
 | grep ThreadLiveBlog.Load \
 | sed 's/^[^{]*//' \
 | sed 's/[^}]*$//' \
