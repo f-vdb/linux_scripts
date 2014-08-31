@@ -1,7 +1,10 @@
+#!/bin/sh
 # wake up my FreeBSD Server
 # onboard realthek re0
 wakeonlan -i 192.168.0.1  6C:F0:49:00:1A:26
+wakeonlan -i 192.168.0.255  6C:F0:49:00:1A:26
 
 
 # intel em0
 wakeonlan -i 192.168.0.1  00:1B:21:60:AE:8D
+wakeonlan -i 192.168.0.255  00:1B:21:60:AE:8D

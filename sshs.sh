@@ -1,3 +1,3 @@
-#!/bin/bash
+#!/bin/sh
 
 ssh 192.168.0.1
