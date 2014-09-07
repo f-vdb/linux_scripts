@@ -1,0 +1,10 @@
+#!/bin/sh
+# wake up r2d2
+# onboard realthek re0
+
+# eth1 intel
+wakeonlan -i 192.168.0.255  00:1B:21:60:AE:88
+
+# eth0 onboard realthek RTL8111/8168/8411
+
+
