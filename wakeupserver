@@ -3,4 +3,7 @@
 wakeonlan -i 192.168.0.1    0C:C4:7A:09:CF:E4 
 wakeonlan -i 192.168.0.255  0C:C4:7A:09:CF:E4 
 
+wakeonlan -i 192.168.0.54   0C:C4:7A:09:CD:68 
+wakeonlan -i 192.168.0.255  0C:C4:7A:09:CD:68 
+
 
