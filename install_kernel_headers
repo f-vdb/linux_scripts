@@ -1,1 +1,2 @@
-apt-get install linux-headers-$(uname -r)
+#!/bin/bash
+sudo apt-get install linux-headers-$(uname -r)
