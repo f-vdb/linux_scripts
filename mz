@@ -1,5 +1,5 @@
 #!/bin/bash
 
-
+# uid == remote user
 sudo mount -t cifs //192.168.0.1/zbigdata ~/zbigdata_mnt \
     -o user=fvdb,uid=1000
